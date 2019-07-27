@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+  transition: 0.5s all;
+}
+
+input,button {
+  border:1px solid #dcd9db;
+  background-color:transparent;
+  padding:5px;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  border:none;
+}
+
+a {
+  text-decoration: none;
+  color:#666;
+  cursor: pointer;
+}
+
+li, ol {
+  list-style: none;
+}
+
+hr {
+  opacity: 0.9;
+  width:90%;
+  border:none;
+  height:1px;
+  margin:20px auto;
+  background: #b3b3b3;
+}
+
+//----------------------滚动条 chrome
+::-webkit-scrollbar {
+  width:5px;
+  margin-right:5px;
+  border:none;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+::-webkit-scrollbar-track {
+  background-color: #e4e2e3;
+}
+::-webkit-scrollbar-track-piece {
+  border-radius:10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #a3b2d7;
+  border-radius:15px;
+}
+::-webkit-scrollbar-corner {
+  background-color: #e4e2e3;
+}
